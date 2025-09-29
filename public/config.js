@@ -3,13 +3,13 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_ORDERLY_BROKER_NAME": "iranperp.com",
   "VITE_DISABLE_MAINNET": "false",
   "VITE_DISABLE_TESTNET": "true",
-  "VITE_ORDERLY_MAINNET_CHAINS": "42161,10,8453,1,56,900900900",
+  "VITE_ORDERLY_MAINNET_CHAINS": "42161,10,8453,56,900900900",
   "VITE_ORDERLY_TESTNET_CHAINS": "421614,84532,97,901901901,11124",
   "VITE_DEFAULT_CHAIN": "56",
   "VITE_PRIVY_APP_ID": "cmg57u3qd01w5l10c0ktcnndj",
   "VITE_PRIVY_LOGIN_METHODS": "email,twitter,google,passkey",
   "VITE_PRIVY_TERMS_OF_USE": "",
-  "VITE_ENABLE_ABSTRACT_WALLET": "true",
+  "VITE_ENABLE_ABSTRACT_WALLET": "false",
   "VITE_DISABLE_EVM_WALLETS": "false",
   "VITE_DISABLE_SOLANA_WALLETS": "false",
   "VITE_WALLETCONNECT_PROJECT_ID": "",
@@ -18,7 +18,7 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_HAS_PRIMARY_LOGO": "true",
   "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Trading,Portfolio,Markets,Leaderboard,Rewards,Vaults",
-  "VITE_CUSTOM_MENUS": "",
+  "VITE_CUSTOM_MENUS": "Iranperp.com, https://dex.iranperp.com",
   "VITE_ENABLE_CAMPAIGNS": "true",
   "VITE_TELEGRAM_URL": "",
   "VITE_DISCORD_URL": "",
@@ -34,5 +34,5 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_AVAILABLE_LANGUAGES": "en,zh,ja,es,ko,vi,de,fr,ru,id,tr,it,pt,uk,pl,nl",
   "VITE_USE_CUSTOM_PNL_POSTERS": "false",
   "VITE_CUSTOM_PNL_POSTER_COUNT": "0",
-  "VITE_TRADING_VIEW_COLOR_CONFIG": ""
+  "VITE_TRADING_VIEW_COLOR_CONFIG": "{\"upColor\":\"#00C896\",\"downColor\":\"#F7525F\",\"pnlUpColor\":\"#00C896\",\"pnlDownColor\":\"#F7525F\",\"chartBG\":\"#131722\"}"
 };
